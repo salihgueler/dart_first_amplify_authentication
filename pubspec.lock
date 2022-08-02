@@ -4,108 +4,86 @@ packages:
   amplify_auth_cognito:
     dependency: "direct main"
     description:
-      path: "packages/auth/amplify_auth_cognito"
-      ref: next
-      resolved-ref: d436a1ec6943075bfc523e0f447f8c19745ad6f8
-      url: "https://github.com/aws-amplify/amplify-flutter.git"
-    source: git
-    version: "0.5.0"
+      name: amplify_auth_cognito
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.0.0-next.0"
   amplify_auth_cognito_android:
-    dependency: "direct overridden"
+    dependency: transitive
     description:
-      path: "packages/auth/amplify_auth_cognito_android"
-      ref: next
-      resolved-ref: d436a1ec6943075bfc523e0f447f8c19745ad6f8
-      url: "https://github.com/aws-amplify/amplify-flutter.git"
-    source: git
-    version: "0.5.0"
+      name: amplify_auth_cognito_android
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.0.0-next.0"
   amplify_auth_cognito_dart:
-    dependency: "direct overridden"
+    dependency: transitive
     description:
-      path: "packages/auth/amplify_auth_cognito_dart"
-      ref: next
-      resolved-ref: d436a1ec6943075bfc523e0f447f8c19745ad6f8
-      url: "https://github.com/aws-amplify/amplify-flutter.git"
-    source: git
+      name: amplify_auth_cognito_dart
+      url: "https://pub.dartlang.org"
+    source: hosted
     version: "0.1.0"
   amplify_auth_cognito_ios:
-    dependency: "direct overridden"
+    dependency: transitive
     description:
-      path: "packages/auth/amplify_auth_cognito_ios"
-      ref: next
-      resolved-ref: d436a1ec6943075bfc523e0f447f8c19745ad6f8
-      url: "https://github.com/aws-amplify/amplify-flutter.git"
-    source: git
-    version: "0.5.0"
+      name: amplify_auth_cognito_ios
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.0.0-next.0"
   amplify_authenticator:
     dependency: "direct main"
     description:
-      path: "packages/amplify_authenticator"
-      ref: next
-      resolved-ref: d436a1ec6943075bfc523e0f447f8c19745ad6f8
-      url: "https://github.com/aws-amplify/amplify-flutter.git"
-    source: git
-    version: "0.1.1"
+      name: amplify_authenticator
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.0.0-next.0"
   amplify_core:
-    dependency: "direct overridden"
+    dependency: transitive
     description:
-      path: "packages/amplify_core"
-      ref: next
-      resolved-ref: d436a1ec6943075bfc523e0f447f8c19745ad6f8
-      url: "https://github.com/aws-amplify/amplify-flutter.git"
-    source: git
-    version: "0.5.0"
+      name: amplify_core
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.0.0-next.0"
   amplify_datastore_plugin_interface:
     dependency: transitive
     description:
       name: amplify_datastore_plugin_interface
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.5.0"
+    version: "1.0.0-next.0"
   amplify_flutter:
     dependency: "direct main"
     description:
-      path: "packages/amplify/amplify_flutter"
-      ref: next
-      resolved-ref: d436a1ec6943075bfc523e0f447f8c19745ad6f8
-      url: "https://github.com/aws-amplify/amplify-flutter.git"
-    source: git
-    version: "0.5.0"
+      name: amplify_flutter
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.0.0-next.0"
   amplify_flutter_android:
-    dependency: "direct overridden"
+    dependency: transitive
     description:
-      path: "packages/amplify/amplify_flutter_android"
-      ref: next
-      resolved-ref: d436a1ec6943075bfc523e0f447f8c19745ad6f8
-      url: "https://github.com/aws-amplify/amplify-flutter.git"
-    source: git
-    version: "0.5.0"
+      name: amplify_flutter_android
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.0.0-next.0"
   amplify_flutter_ios:
-    dependency: "direct overridden"
+    dependency: transitive
     description:
-      path: "packages/amplify/amplify_flutter_ios"
-      ref: next
-      resolved-ref: d436a1ec6943075bfc523e0f447f8c19745ad6f8
-      url: "https://github.com/aws-amplify/amplify-flutter.git"
-    source: git
-    version: "0.5.0"
+      name: amplify_flutter_ios
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.0.0-next.0"
   amplify_secure_storage:
-    dependency: "direct overridden"
+    dependency: transitive
     description:
-      path: "packages/secure_storage/amplify_secure_storage"
-      ref: next
-      resolved-ref: d436a1ec6943075bfc523e0f447f8c19745ad6f8
-      url: "https://github.com/aws-amplify/amplify-flutter.git"
-    source: git
+      name: amplify_secure_storage
+      url: "https://pub.dartlang.org"
+    source: hosted
     version: "0.1.0"
   amplify_secure_storage_dart:
-    dependency: "direct overridden"
+    dependency: transitive
     description:
-      path: "packages/secure_storage/amplify_secure_storage_dart"
-      ref: next
-      resolved-ref: d436a1ec6943075bfc523e0f447f8c19745ad6f8
-      url: "https://github.com/aws-amplify/amplify-flutter.git"
-    source: git
+      name: amplify_secure_storage_dart
+      url: "https://pub.dartlang.org"
+    source: hosted
     version: "0.1.0"
   async:
     dependency: transitive
@@ -115,23 +93,19 @@ packages:
     source: hosted
     version: "2.8.2"
   aws_common:
-    dependency: "direct overridden"
+    dependency: transitive
     description:
-      path: "packages/aws_common"
-      ref: next
-      resolved-ref: d436a1ec6943075bfc523e0f447f8c19745ad6f8
-      url: "https://github.com/aws-amplify/amplify-flutter.git"
-    source: git
-    version: "0.1.0"
+      name: aws_common
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.2.0"
   aws_signature_v4:
-    dependency: "direct overridden"
+    dependency: transitive
     description:
-      path: "packages/aws_signature_v4"
-      ref: next
-      resolved-ref: d436a1ec6943075bfc523e0f447f8c19745ad6f8
-      url: "https://github.com/aws-amplify/amplify-flutter.git"
-    source: git
-    version: "0.1.0"
+      name: aws_signature_v4
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.2.0"
   boolean_selector:
     dependency: transitive
     description:
@@ -188,6 +162,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "3.0.2"
+  crclib:
+    dependency: transitive
+    description:
+      name: crclib
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "3.0.0"
   crypto:
     dependency: transitive
     description:
@@ -208,7 +189,7 @@ packages:
       name: ffi
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.2.1"
+    version: "2.0.1"
   fixnum:
     dependency: transitive
     description:
@@ -341,6 +322,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.1.2"
+  quiver:
+    dependency: transitive
+    description:
+      name: quiver
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "3.1.0"
   retry:
     dependency: transitive
     description:
@@ -364,16 +352,16 @@ packages:
     dependency: transitive
     description:
       name: smithy
-      url: "https://pub.dillonnys.com"
+      url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.5.5"
+    version: "0.1.0"
   smithy_aws:
     dependency: transitive
     description:
       name: smithy_aws
-      url: "https://pub.dillonnys.com"
+      url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.5.5"
+    version: "0.1.0"
   source_span:
     dependency: transitive
     description:
@@ -423,6 +411,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.4.9"
+  tuple:
+    dependency: transitive
+    description:
+      name: tuple
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "2.0.0"
   typed_data:
     dependency: transitive
     description:
@@ -450,15 +445,13 @@ packages:
       name: win32
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "2.6.1"
+    version: "2.7.0"
   worker_bee:
-    dependency: "direct overridden"
+    dependency: transitive
     description:
-      path: "packages/worker_bee/worker_bee"
-      ref: next
-      resolved-ref: d436a1ec6943075bfc523e0f447f8c19745ad6f8
-      url: "https://github.com/aws-amplify/amplify-flutter.git"
-    source: git
+      name: worker_bee
+      url: "https://pub.dartlang.org"
+    source: hosted
     version: "0.1.0"
   xml:
     dependency: transitive
